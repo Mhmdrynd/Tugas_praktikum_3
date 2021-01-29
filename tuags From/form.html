@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Lichies Coffe</title>
+    <link rel="stylesheet" type="text/css" href="style,css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: #efefef;
+            font-size: 16px;
+            color: #777;
+            font-family: sans-serif;
+            font-weight: 300;
+        }
+        #login-box{
+            position: relative;
+            margin: 5%;
+            height: 400px;
+            width: 600px;
+            background: #efefef;
+            box-shadow: 0 2px 4px rgba(0,0,0,0,6);
+        }
+        .left-box{
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            padding: 40px;
+            width: 300px;
+            height: 400px;
+        }
+        h1{
+            margin: 0 0 20px 0;
+            font-weight: 300;
+            font-size: 28px;
+        }
+        input[type="text"],
+        input[type="password"]{
+            display: block;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            padding: 4px;
+            width: 220px;
+            height: 32px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #aaa;
+            font-family: sans-serif;
+            font-weight: 400px;
+            font-size: 15px;
+            transition: 0.2s ease;
+        }
+        input[type="sumbit"]{
+            margin-bottom: 20px;
+            width: 120px;
+            height: 32px;
+            background: #f44336;
+            border: none;
+            border-radius: 2px;
+            color: #fff;
+            font-weight: 500;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            transition: 00.2s ease;
+            cursor: pointer;
+        }
+        input[type="sumbit"]:hover,
+        input[type="sumbit"]:focus{
+            background: #ff5722;
+            transition: 00.2s ease;
+        }
+        .or{
+            position: absolute;
+            top: 200px;
+            left: 325px;
+            width: 40px;
+            height: 40px;
+            background: #efefef;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0,6);
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .right-box{
+            position: absolute;
+            top: 0;
+            right: 0;
+            box-sizing: border-box;
+            padding: 40px;
+            width: 300px;
+            height: 400px;
+            background-image: url(latar\ belakang.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .right-box .signinwith{
+            display: block;
+            margin-bottom: 40px;
+            font-size: 28px;
+            color: rgb(216, 38, 38);
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0,6);
+        }
+        .facebook{
+            background-image: url(logo.jpeg);
+        }
+        .twitter{
+            background-color: black;
+        }
+        .instagram{
+            background-color: black;
+        }
+    </style>
+</head>
+<body style="background: url(logo.jpeg); background-size: cover; background-attachment: fixed;">
+    <div id="login-box">
+     <div class="left-box">
+         <h1> sign Up </h1>
+         <input type="text" name="username" placeholder="Nama Lengkap">
+         <input type="text" name="email" placeholder="email">
+         <input type="password" name="password" placeholder="password">
+         <input type="password" name="password" placeholder="Re Password">
+         <input type="sumbit" name="signup-button" value="Daftar">
+     </div>
+    
+     <div class="right-box">
+         <span class="signinwith">Daftar melalui<br>media sosial</span>
+         <button class="social facebook"> <a href="https://facebook.com/rian.screamo.18" target="blank"><img src="facebook.png" alt="" width="40px"></a> </button>
+         <button class="social twitter"> <a href="https://twitter.com/MuhamadRiyand18" target="blank"><img src="twitter.png" alt="" width="40px"></a> </button>
+         <button class="social instagram"> <a href="https://instagram.com/mhmdrynd_" target="blank"><img src="instagram.jpg" alt="" width="40px"></a> </button>
+     </div>
+    </div>
+     <div class="or"> Atau </div>
+</body>
+</html>
